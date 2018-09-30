@@ -7,7 +7,5 @@ def my_all?(collection)
     block_return_value << yield(collection[i])
     i += 1
   end
-  block_return_value.all? { |n|
-    n > 3
-  }
+  collectin.all? { |n| n > 3 }
 end
