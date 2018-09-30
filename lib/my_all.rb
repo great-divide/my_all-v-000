@@ -7,7 +7,10 @@ def my_all?(collection)
     block_return_value << yield(collection[i])
     i += 1
   end
-  if 
+  if block_return_value.all? { |n| n == true }
+    true
+  else false
+  end
   
 end
 
