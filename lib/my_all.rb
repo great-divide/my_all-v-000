@@ -7,7 +7,7 @@ def my_all?(collection)
     block_return_value << yield(collection[i])
     i += 1
   end
-  block_return_value.all? do |n|
+  block_return_value.all? {do |n|
     n > 3
-  end
+  }
 end
