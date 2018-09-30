@@ -9,4 +9,5 @@ def my_all?(collection)
   end
   block_return_value.all? do |n|
     n > 3
+  end
 end
